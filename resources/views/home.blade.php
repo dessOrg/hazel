@@ -4,7 +4,7 @@
 <div class="content">
     <div class="container-fluid">
       <div class="row">
-      <div class="col-md-1" style="padding-top:40px;"> <!-- Logo section -->
+      <div class="col-md-1" style="padding-top:30px;"> <!-- Logo section -->
 
     <i class="fa fa-circle fa-5x text-info"></i>
 
@@ -12,7 +12,7 @@
       <div class="col-md-11"> <!-- Body section -->
 
         <div class="col-md-9 title"> <!-- Title section -->
-          <h3>Supliment your income with Akiba Account.</h3>
+          <h3><b>Supliment your income with Akiba Account.</b></h3>
 
         </div>
         <div class="col-md-3"> <!-- Time section -->
