@@ -4,9 +4,9 @@
 <div class="content">
     <div class="container-fluid">
       <div class="row">
-      <div class="col-md-1"> <!-- Logo section -->
+      <div class="col-md-1" style="padding-top:40px;"> <!-- Logo section -->
 
-    <i class="fa fa-circle text-info"></i> 
+    <i class="fa fa-circle fa-5x text-info"></i>
 
       </div>
       <div class="col-md-11"> <!-- Body section -->
