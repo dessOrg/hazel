@@ -6,6 +6,7 @@
       <div class="row">
       <div class="col-md-1"> <!-- Logo section -->
 
+    <i class="fa fa-circle text-info"></i> 
 
       </div>
       <div class="col-md-11"> <!-- Body section -->
