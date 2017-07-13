@@ -3,6 +3,7 @@
 @section('content')
 <div class="content">
     <div class="container-fluid">
+      <hr>
       <div class="row">
       <div class="col-md-1" style="padding-top:30px;"> <!-- Logo section -->
 
@@ -29,6 +30,7 @@
 
       </div>
     </div>
+    <hr>
     </div>
 </div>
 @endsection
