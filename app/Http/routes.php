@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use App\Tender;
+use App\Opportunity;
 use Validator;
 use Auth;
 use App\Http\Requests;
