@@ -12,7 +12,7 @@ class Tender extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'title', 'file', 'dateline', 'description', 'status', 'awarded_to', 'c_name',
+        'title', 'company_name', 'kra_pin', 'description', 'location', 'user_id'
     ];
 
     /**

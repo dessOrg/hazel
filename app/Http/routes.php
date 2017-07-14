@@ -29,3 +29,4 @@ $this->get('/', function () {
 $this->auth();
 
 $this->get('/addOpport', 'IndexController@getOpport');
+$this->post('/addOpport', 'IndexController@addOpport');

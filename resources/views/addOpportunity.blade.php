@@ -9,7 +9,7 @@
               <div class="panel panel-default">
                   <div class="panel-heading">Post an Investment Opportunity</div>
                   <div class="panel-body">
-                      <form class="form-horizontal" role="form" method="POST" action="{{ url('/addopport') }}">
+                      <form class="form-horizontal" role="form" method="POST" action="{{ url('/addOpport') }}">
                           {{ csrf_field() }}
 
                               <div class="col-md-12">
