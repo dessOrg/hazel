@@ -31,3 +31,4 @@ $this->auth();
 
 $this->get('/addOpport', 'IndexController@getOpport');
 $this->post('/addOpport', 'IndexController@addOpport');
+$this->get('/getuser', 'IndexController@getuser');

@@ -24,8 +24,10 @@
         <div class="col-md-12">
          <p>{{$key->description}}.</p>
         </div>
-
-        <div class="col-md-offset-10 col-md-2">
+        <div class="col-md-10">
+          <p>{{$key->company_name}}</p>
+        </div>
+        <div class="col-md-2">
           <button type="submit" class="btn btn-warning btn-fill pull-right">Learn More</button>
         </div>
 

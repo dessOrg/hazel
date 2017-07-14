@@ -30,6 +30,11 @@ class IndexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+     public function getuser()
+     {
+
+         return view('user');
+     }
 
      public function getOpport()
      {

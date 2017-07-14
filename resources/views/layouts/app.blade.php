@@ -122,7 +122,7 @@
 
                         @else
                             <li>
-                               <a href="">
+                               <a href="{{url('/getuser')}}">
                                    <p>Account</p>
                                 </a>
                             </li>
