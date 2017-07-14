@@ -103,16 +103,30 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
+                        @if(Auth::guest())
                         <li>
-                           <a href="">
-                               <p>Account</p>
+                            <a href="{{ url('/login')}}">
+                                <p>Log In</p>
                             </a>
                         </li>
+                        <li>
+                            <a href="{{url('/register')}}">
+                                <p>Register</p>
+                            </a>
+                        </li>
+
+                        @else
+                            <li>
+                               <a href="">
+                                   <p>Account</p>
+                                </a>
+                            </li>
                         <li>
                             <a href="#">
                                 <p>Log out</p>
                             </a>
                         </li>
+                        @endif
 						<li class="separator hidden-lg hidden-md"></li>
                     </ul>
                 </div>
