@@ -122,12 +122,12 @@
 
                         @else
                             <li>
-                               <a href="{{url('/getuser')}}">
+                               <a href="{{url('/getUser')}}">
                                    <p>Account</p>
                                 </a>
                             </li>
                         <li>
-                            <a href="#">
+                            <a href="{{url('/logout')}}">
                                 <p>Log out</p>
                             </a>
                         </li>
