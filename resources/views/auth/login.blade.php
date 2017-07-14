@@ -51,7 +51,7 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="primary">
+                                <button type="submit" class="btn btn-success">
                                     <i class="fa fa-sign-in"></i> Login
                                 </button>
 
