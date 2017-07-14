@@ -31,6 +31,10 @@ class IndexController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+     public function getOpport()
+     {
 
+         return view('addOpportunity');
+     }
 
 }

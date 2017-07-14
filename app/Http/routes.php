@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\User;
 use App\Tender;
-use App\Bid;
 use Validator;
 use Auth;
 use App\Http\Requests;
@@ -29,4 +28,4 @@ $this->get('/', function () {
 
 $this->auth();
 
-$this->get('/home', 'HomeController@index');
+$this->get('/addOpport', 'IndexController@getOpport');

@@ -40,17 +40,22 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="/" class="simple-text">
+                <a href="{{ url('/')}}" class="simple-text">
                     CoinBox
                 </a>
             </div>
 
             <ul class="nav">
                 <li class="active">
-                    <a href="dashboard.html">
+                    <a href="{{ url('/')}}">
                         <i class="pe-7s-graph"></i>
                         <p>Dashboard</p>
                     </a>
+                </li>
+                <li >
+                  <a href="{{ url('/addOpport')}}">
+                      <i class="pe-7s-note2"></i>
+                      <p>Post Opportunity</p> </li>
                 </li>
             </ul>
     	</div>
