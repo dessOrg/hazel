@@ -102,8 +102,8 @@
                              <a href="#">
                             <img class="avatar border-gray" src="" alt="..."/>
 
-                              <h4 class="title">{{Auth::use()->fname}} {{Auth::use()->lname}}<br />
-                                 <small>{{Auth::use()->email}}</small>
+                              <h4 class="title">{{Auth::user()->fname}} {{Auth::user()->lname}}<br />
+                                 <small>{{Auth::user()->email}}</small>
                               </h4>
                             </a>
                         </div>
