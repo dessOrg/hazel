@@ -25,7 +25,7 @@
          <p>{{$key->description}}.</p>
         </div>
         <div class="col-md-10">
-          <p>{{$key->company_name}}</p>
+          <p><i class="fa pe-7s-star"></i><em>{{$key->company_name}}<em></p>
         </div>
         <div class="col-md-2">
           <button type="submit" class="btn btn-warning btn-fill pull-right">Learn More</button>
