@@ -15,7 +15,7 @@
                                 <div class="col-md-5">
                                     <div class="form-group">
                                         <label>Company (disabled)</label>
-                                        <input type="text" class="form-control" disabled placeholder="Company" value="Creative Code Inc.">
+                                        <input type="text" class="form-control" disabled placeholder="Company" value="Coinbox Inc.">
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -51,7 +51,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Address</label>
-                                        <input type="text" class="form-control" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
+                                        <input type="text" class="form-control" placeholder="Home Address" value="4th Avenue, Nyali">
                                     </div>
                                 </div>
                             </div>
@@ -60,19 +60,19 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label>City</label>
-                                        <input type="text" class="form-control" placeholder="City" value="Mike">
+                                        <input type="text" class="form-control" placeholder="City" value="Mombasa">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label>Country</label>
-                                        <input type="text" class="form-control" placeholder="Country" value="Andrew">
+                                        <input type="text" class="form-control" placeholder="Country" value="Kenya">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label>Postal Code</label>
-                                        <input type="number" class="form-control" placeholder="ZIP Code">
+                                        <input type="number" class="form-control" placeholder="0800">
                                     </div>
                                 </div>
                             </div>
@@ -100,16 +100,15 @@
                     <div class="content">
                         <div class="author">
                              <a href="#">
-                            <img class="avatar border-gray" src="/assets/img/faces/face-3.jpg" alt="..."/>
+                            <img class="avatar border-gray" src="" alt="..."/>
 
-                              <h4 class="title">Mike Andrew<br />
-                                 <small>michael24</small>
+                              <h4 class="title">{{Auth::use()->fname}} {{Auth::use()->lname}}<br />
+                                 <small>{{Auth::use()->email}}</small>
                               </h4>
                             </a>
                         </div>
-                        <p class="description text-center"> "Lamborghini Mercy <br>
-                                            Your chick she so thirsty <br>
-                                            I'm in that two seat Lambo"
+                        <p class="description text-center"> "
+                                            "
                         </p>
                     </div>
                     <hr>
