@@ -30,7 +30,7 @@ class IndexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-     public function getuser()
+     public function disuser()
      {
 
          return view('user');
