@@ -23,7 +23,8 @@ use Mail;
 */
 
 $this->get('/', function () {
-    return view('home');
+  $name = Opportunity::get();
+    return view('home')->with('opportunities', $name);
 });
 
 $this->auth();

@@ -4,6 +4,7 @@
 <div class="content">
     <div class="container-fluid">
       <hr>
+      @foreach($opportunities as $key)
       <div class="row">
       <div class="col-md-1" style="padding-top:30px;"> <!-- Logo section -->
 
@@ -13,15 +14,15 @@
       <div class="col-md-11"> <!-- Body section -->
 
         <div class="col-md-9 title"> <!-- Title section -->
-          <h3><b>Supliment your income with Akiba Account.</b></h3>
+          <h3><b>{{$key->title}}.</b></h3>
 
         </div>
         <div class="col-md-3"> <!-- Time section -->
-       <i class="fa fa-clock-o"></i> 2 days ago
+       <i class="fa fa-clock-o"></i> {{$key->created_at}}
 
         </div>
         <div class="col-md-12">
-         <p>Supliment your income with Akiba Account.</p>
+         <p>{{$key->description}}.</p>
         </div>
 
         <div class="col-md-offset-10 col-md-2">
@@ -31,33 +32,8 @@
       </div>
     </div>
     <hr>
-    <div class="row">
-    <div class="col-md-1" style="padding-top:30px;"> <!-- Logo section -->
+    @endforeach
 
-  <i class="fa fa-circle fa-5x text-warning"></i>
-
-    </div>
-    <div class="col-md-11"> <!-- Body section -->
-
-      <div class="col-md-9 title"> <!-- Title section -->
-        <h3><b>Supliment your income with Akiba Account.</b></h3>
-
-      </div>
-      <div class="col-md-3"> <!-- Time section -->
-     <i class="fa fa-clock-o"></i> 2 days ago
-
-      </div>
-      <div class="col-md-12">
-       <p>Supliment your income with Akiba Account.</p>
-      </div>
-
-      <div class="col-md-offset-10 col-md-2">
-        <button type="submit" class="btn btn-warning btn-fill pull-right">Learn More</button>
-      </div>
-
-    </div>
-  </div>
-  <hr>
     </div>
 </div>
 @endsection
