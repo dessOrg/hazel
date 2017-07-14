@@ -69,8 +69,8 @@ class IndexController extends Controller
      $opportunity->title     = Input::get('title');
      $opportunity->location     = Input::get('location');
      $opportunity->kra_pin     = Input::get('kra_pin');
-     $opportunity->phoneno     = Input::get('description');
-     $opportunity->code     = Input::get('company_name');
+     $opportunity->description     = Input::get('description');
+     $opportunity->company_name     = Input::get('company_name');
      $opportunity->user_id     = Auth::user()->id;
 
       $opportunity->save();
