@@ -6,7 +6,7 @@
     <div class="row">
 <div class="col-md-12">
       <ul class="nav nav-tabs nav-justified">
-        <li class="active"><a href="#user">User</a></li>
+        <li class="active"><a href="#normal">User</a></li>
         <li><a href="#coop">Cooperate</a></li>
       </ul>
 
