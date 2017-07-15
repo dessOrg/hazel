@@ -77,7 +77,7 @@
                     <a class="navbar-brand" href="{{ url('/')}}">Home</a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-centre">
+                    <ul class="nav navbar-nav " style="float:center">
                       <li><img src="/images/logo.png" style="height:48px; width:48px;"></li>
                     </ul>
 
