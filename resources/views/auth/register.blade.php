@@ -136,7 +136,7 @@
           </div>
         </div>
 <!-- Co-operate registration -->
-      <div id="coop" class="tab-pane fade">
+      <div id="coop" class="tab-pane fade in active">
         <div class="col-md-12">
             <div class="panel panel-default" >
                 <div class="panel-heading">Co-operate Registration</div>
