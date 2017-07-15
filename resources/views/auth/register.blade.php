@@ -10,9 +10,10 @@
         <li><a href="#coop">Cooperate</a></li>
       </ul>
 
-        <div class="col-md-12">
+
           <div class="tab-content">
           <div id="normal" class="tab-pane fade in active">
+            <div class="col-md-12">
             <div class="panel panel-default" >
                 <div class="panel-heading">User Registration</div>
                 <div class="panel-body">
@@ -133,8 +134,10 @@
                 </div>
             </div>
           </div>
+        </div>
 <!-- Co-operate registration -->
       <div id="coop" class="tab-pane fade">
+        <div class="col-md-12">
             <div class="panel panel-default" >
                 <div class="panel-heading">Co-operate Registration</div>
                 <div class="panel-body">
