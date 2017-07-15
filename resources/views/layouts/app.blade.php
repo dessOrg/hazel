@@ -77,7 +77,9 @@
                     <a class="navbar-brand" href="{{ url('/')}}">Home</a>
                 </div>
                 <div class="collapse navbar-collapse">
-
+                    <ul class="nav navbar-nav navbar-center">
+                      <li><img src="/images/log.png"></li>
+                    </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                         @if(Auth::guest())
