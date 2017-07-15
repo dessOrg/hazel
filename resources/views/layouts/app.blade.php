@@ -68,7 +68,7 @@
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
               <div class="col-md-offset-2 col-md-2">
-                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:48px; width:48px;"></a>
+                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:40px; width:48px;"></a>
               </div>
                 <div  class="col-md-8">
                 <div class="navbar-header">
