@@ -16,7 +16,9 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <!-- Bootstrap core CSS     -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Animation library for notifications   -->
     <link href="/assets/css/animate.min.css" rel="stylesheet"/>
 
@@ -98,7 +100,7 @@
                         @else
                             <li>
                                <a href="{{url('/getUser')}}">
-                                   <i class="fa fa-user">{{Auth::user()->fname}}</i>
+                                   <i class="fa fa-user"></i>
                                 </a>
                             </li>
                         <li>
