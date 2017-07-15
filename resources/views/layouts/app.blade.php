@@ -74,11 +74,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:48px; width:48px;"></a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav" style="margin-left:200px;">
-                      <li><img src="/images/logo.png" style="height:48px; width:48px;"></li>
-                    </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                         @if(Auth::guest())
