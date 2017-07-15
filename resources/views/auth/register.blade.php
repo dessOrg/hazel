@@ -9,8 +9,11 @@
         <li class="active"><a href="#user">User</a></li>
         <li><a href="#coop">Cooperate</a></li>
       </ul>
+
         <div class="col-md-12">
-            <div class="panel panel-default" id="normal">
+          <div class="tab-content">
+          <div id="normal" class="tab-pane fade in active">
+            <div class="panel panel-default" >
                 <div class="panel-heading">User Registration</div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
@@ -129,8 +132,10 @@
                     </form>
                 </div>
             </div>
+          </div>
 <!-- Co-operate registration -->
-            <div class="panel panel-default" id="coop">
+      <div id="coop" class="tab-pane fade">
+            <div class="panel panel-default" >
                 <div class="panel-heading">Co-operate Registration</div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
@@ -249,9 +254,11 @@
                     </form>
                 </div>
             </div>
+          </div>
         </div>
 
       </div>
+    </div>
     </div>
 </div>
 </div>
