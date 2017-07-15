@@ -52,7 +52,7 @@
                 <li class="active">
                     <a href="{{ url('/')}}">
                         <i class="pe-7s-graph"></i>
-                        <p>Dashboard</p>
+                        <p>Opportunities</p>
                     </a>
                 </li>
                 <li >
@@ -68,7 +68,7 @@
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
               <div class="col-md-offset-2 col-md-2">
-                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:40px; width:48px;"></a>
+                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:42px; width:48px; padding-bottom:20px;"></a>
               </div>
                 <div  class="col-md-8">
                 <div class="navbar-header">
