@@ -6,8 +6,8 @@
     <div class="row">
 <div class="col-md-12">
       <ul class="nav nav-tabs nav-justified">
-        <li class="active"><a href="#normal">User</a></li>
-        <li><a href="#coop">Cooperate</a></li>
+        <li class="active"><a data-toggle="tab" href="#normal">User</a></li>
+        <li><a data-toggle="tab" href="#coop">Cooperate</a></li>
       </ul>
 
 
@@ -136,7 +136,7 @@
           </div>
         </div>
 <!-- Co-operate registration -->
-      <div id="coop" class="tab-pane fade in active">
+      <div id="coop" class="tab-pane fade">
         <div class="col-md-12">
             <div class="panel panel-default" >
                 <div class="panel-heading">Co-operate Registration</div>
