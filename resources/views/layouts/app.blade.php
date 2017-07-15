@@ -91,7 +91,7 @@
                         </li>
                         <li>
                             <a href="{{url('/register')}}">
-                                <i class="fa fa-btn fa-sign-up"></i>
+                                <i class="fa fa-btn fa-user-plus"></i>
                             </a>
                         </li>
 
