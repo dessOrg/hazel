@@ -78,7 +78,7 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-center">
-                      <li><img src="/images/logo.png"></li>
+                      <li><img src="/images/logo.png" style="height:48px; width:48px;"></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
