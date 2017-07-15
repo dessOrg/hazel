@@ -22,8 +22,8 @@
 
                             <div class="col-md-12">
                               <div><h3>Personal Details</h3></div><hr>
-                              <div class="col-md-6">
 
+                      <div class="col-md-12">
                       <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                           <label for="fname" class="col-md-12 control-label">First Name</label>
 
@@ -37,7 +37,9 @@
                               @endif
                           </div>
                       </div>
+                    </div>
 
+            <div class="col-md-6">
               <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                   <label for="email" class="col-md-12 control-label">E-Mail Address</label>
 
@@ -51,24 +53,9 @@
                       @endif
                   </div>
               </div>
+          </div>
 
-
-                              </div>
-                                  <div class="col-md-6">
-
-                          <div class="form-group{{ $errors->has('lname') ? ' has-error' : '' }}">
-                              <label for="lname" class="col-md-12 control-label">Last Name</label>
-
-                              <div class="col-md-12">
-                                  <input id="lname" type="text" class="form-control" name="lname" value="{{ old('lname') }}">
-
-                                  @if ($errors->has('lname'))
-                                      <span class="help-block">
-                                          <strong>{{ $errors->first('lname') }}</strong>
-                                      </span>
-                                  @endif
-                              </div>
-                                </div>
+                <div class="col-md-6">
 
                         <div class="form-group{{ $errors->has('phoneno') ? ' has-error' : '' }}">
                             <label for="phoneno" class="col-md-12 control-label">Mobile No</label>
@@ -83,8 +70,8 @@
                                 @endif
                             </div>
                         </div>
+                    </div>
 
-                                  </div>
                                 </div>
                                 <div class="col-md-12">
                                   <div class="col-md-6">
