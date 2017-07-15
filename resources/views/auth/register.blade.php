@@ -163,6 +163,7 @@
                             @endif
                       </div>
                     </div>
+                  </div>
 
            <div class="col-md-6">
               <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
