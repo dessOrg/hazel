@@ -86,12 +86,12 @@
                         @if(Auth::guest())
                         <li>
                             <a href="{{ url('/login')}}">
-                                <i class="fa fa-login"></i>
+                                <i class="fa fa-btn fa-sign-in"></i>
                             </a>
                         </li>
                         <li>
                             <a href="{{url('/register')}}">
-                                <i class="fa fa-signup"></i>
+                                <i class="fa fa-btn fa-sign-up"></i>
                             </a>
                         </li>
 
@@ -103,7 +103,7 @@
                             </li>
                         <li>
                             <a href="{{url('/logout')}}">
-                                <i class="fa fa-logout"></i>
+                                <i class="fa fa-btn fa-sign-out"></i>
                             </a>
                         </li>
                         @endif
