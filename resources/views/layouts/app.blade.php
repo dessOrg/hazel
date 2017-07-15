@@ -69,10 +69,10 @@
   <div class="main-panel">
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
-              <div class="col-md-offset-4 col-md-2" style="text-align:center;">
-                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:50px; width:48px; padding-bottom:20px;"></a>
+              <div class="col-md-offset-5 col-md-2" style="text-align:center;">
+                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto; padding-bottom:20px;"></a>
               </div>
-                <div  class="col-md-6">
+                <div  class="col-md-5">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
                         <span class="sr-only">Toggle navigation</span>
