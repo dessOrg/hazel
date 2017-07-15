@@ -67,6 +67,10 @@
   <div class="main-panel">
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
+              <div class="col-md-offset-2 col-md-2">
+                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:48px; width:48px;"></a>
+              </div>
+                <div  class="col-md-8">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
                         <span class="sr-only">Toggle navigation</span>
@@ -74,7 +78,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:48px; width:48px;"></a>
+
                 </div>
                 <div class="collapse navbar-collapse">
 
@@ -107,6 +111,7 @@
                     </ul>
                 </div>
             </div>
+          </div>
         </nav>
 
 @yield('content')
