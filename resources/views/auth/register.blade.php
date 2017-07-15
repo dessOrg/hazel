@@ -25,7 +25,7 @@
 
                       <div class="col-md-12">
                       <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                          <label for="fname" class="col-md-12 control-label">First Name</label>
+                          <label for="fname" class="col-md-12 control-label">Full Name</label>
 
                           <div class="col-md-12">
                               <input id="fname" type="text" class="form-control" name="fname" value="{{ old('fname') }}">
