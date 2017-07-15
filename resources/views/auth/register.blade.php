@@ -25,14 +25,14 @@
 
                       <div class="col-md-12">
                       <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                          <label for="fname" class="col-md-12 control-label">Full Name</label>
+                          <label for="name" class="col-md-12 control-label">Full Name</label>
 
                           <div class="col-md-12">
-                              <input id="fname" type="text" class="form-control" name="fname" value="{{ old('fname') }}">
+                              <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}">
 
-                              @if ($errors->has('fname'))
+                              @if ($errors->has('name'))
                                   <span class="help-block">
-                                      <strong>{{ $errors->first('fname') }}</strong>
+                                      <strong>{{ $errors->first('name') }}</strong>
                                   </span>
                               @endif
                           </div>
@@ -132,23 +132,39 @@
                         {{ csrf_field() }}
 
                             <div class="col-md-12">
-                              <div><h3>Personal Details</h3></div><hr>
+                              <div><h3>Co-operate Details</h3></div><hr>
                               <div class="col-md-6">
-
                       <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                          <label for="fname" class="col-md-12 control-label">First Name</label>
+                          <label for="name" class="col-md-12 control-label">Co-operate Name</label>
 
                           <div class="col-md-12">
-                              <input id="fname" type="text" class="form-control" name="fname" value="{{ old('fname') }}">
+                              <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}">
 
-                              @if ($errors->has('fname'))
+                              @if ($errors->has('name'))
                                   <span class="help-block">
-                                      <strong>{{ $errors->first('fname') }}</strong>
+                                      <strong>{{ $errors->first('name') }}</strong>
                                   </span>
                               @endif
                           </div>
                       </div>
+                    </div>
 
+                    <div class="col-md-6">
+                        <div class="form-group{{ $errors->has('kra-pin') ? ' has-error' : '' }}">
+                          <label for="kra-pin" class="col-md-12 control-label">Kra Pin</label>
+
+                            <div class="col-md-12">
+                                <input id="kra-pin" type="text" class="form-control" name="kra-pin" value="{{ old('kra-pin') }}">
+
+                                  @if ($errors->has('kra-pin'))
+                                <span class="help-block">
+                              <strong>{{ $errors->first('kra-pin') }}</strong>
+                          </span>
+                            @endif
+                      </div>
+                    </div>
+
+           <div class="col-md-6">
               <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                   <label for="email" class="col-md-12 control-label">E-Mail Address</label>
 
@@ -162,25 +178,9 @@
                       @endif
                   </div>
               </div>
+            </div>
 
-
-                              </div>
-                                  <div class="col-md-6">
-
-                          <div class="form-group{{ $errors->has('lname') ? ' has-error' : '' }}">
-                              <label for="lname" class="col-md-12 control-label">Last Name</label>
-
-                              <div class="col-md-12">
-                                  <input id="lname" type="text" class="form-control" name="lname" value="{{ old('lname') }}">
-
-                                  @if ($errors->has('lname'))
-                                      <span class="help-block">
-                                          <strong>{{ $errors->first('lname') }}</strong>
-                                      </span>
-                                  @endif
-                              </div>
-                                </div>
-
+                   <div class="col-md-6">
                         <div class="form-group{{ $errors->has('phoneno') ? ' has-error' : '' }}">
                             <label for="phoneno" class="col-md-12 control-label">Mobile No</label>
 
