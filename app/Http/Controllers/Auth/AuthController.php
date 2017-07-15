@@ -49,8 +49,8 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'fname' => 'required|max:255',
-            'lname' => 'required|max:255',
+            'name' => 'required|max:255',
+            'kra_pin' => 'required|min:10|max:11',
             'phoneno' => 'required|min:12|max:13|unique:users',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
@@ -66,9 +66,10 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'fname' => $data['fname'],
-            'lname' => $data['lname'],
-            'role' => "Normal",
+            'name' => $data['name'],
+            'kra_pin' => $data['kra_pin'],
+            'role' => Input::get('role'),
+            'image' => "default-avatar.png",
             'email' => $data['email'],
             'phoneno' => $data['phoneno'],
             'password' => bcrypt($data['password']),
