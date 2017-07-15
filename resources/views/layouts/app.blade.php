@@ -86,24 +86,24 @@
                         @if(Auth::guest())
                         <li>
                             <a href="{{ url('/login')}}">
-                                <p>Log In</p>
+                                <i class="fa fa-login"></i>
                             </a>
                         </li>
                         <li>
                             <a href="{{url('/register')}}">
-                                <p>Register</p>
+                                <i class="fa fa-signup"></i>
                             </a>
                         </li>
 
                         @else
                             <li>
                                <a href="{{url('/getUser')}}">
-                                   <p>Account</p>
+                                   <i class="fa fa-user">{{Auth::user()->fname}}</i>
                                 </a>
                             </li>
                         <li>
                             <a href="{{url('/logout')}}">
-                                <p>Log out</p>
+                                <i class="fa fa-logout"></i>
                             </a>
                         </li>
                         @endif
