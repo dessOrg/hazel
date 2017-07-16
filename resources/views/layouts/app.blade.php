@@ -43,14 +43,18 @@
 
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
+        <div class="col-md-offset-5 col-md-2">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">WebSiteName</a>
         </div>
-        <div class="nav navbar-nav">
-          <div class="col-md-3 col-xs-2"><a href="#">Home</a></div>
-          <div class="col-md-3 col-xs-2"><a href="#">Page 1</a></div>
-          <div class="col-md-3 col-xs-2"><a href="#">Page 2</a></div>
+      </div>
+        <div class="col-md-5">
+        <div class="nav navbar-nav navbar-right">
+          <div class="col-md-4 col-xs-4"><a href="#">Home</a></div>
+          <div class="col-md-4 col-xs-4"><a href="#">Page 1</a></div>
+          <div class="col-md-4 col-xs-4"><a href="#">Page 2</a></div>
         </div>
+      </div>
       </div>
     </nav>
 
