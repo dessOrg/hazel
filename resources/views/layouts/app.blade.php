@@ -29,7 +29,7 @@
   <div  class="container-fluid">
     <div class="row">
     <div class="col-md-1" style="background-color:blue;">
-
+<div style="background-color:red; height:100%; width:auto;"></div>
     <!--
 
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
