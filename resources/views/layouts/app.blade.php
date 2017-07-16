@@ -40,7 +40,7 @@
 
     </div>
 
-  <div class="col-md-10 main">
+  <div class="col-md-10 main" style="background-color:red;">
 
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#2980b9;">
       <div class="container-fluid">
