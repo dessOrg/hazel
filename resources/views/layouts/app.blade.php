@@ -28,8 +28,8 @@
 <body id="">
   <div  class="container-fluid">
     <div class="row">
-    <div class="col-md-1" style="background-image: url("assets/img/sidebar-5.jpg"); background-color: #2980b9; height:1000px;">
-
+    <div class="col-md-1" style="background-color: #2980b9;">
+    <div style="background-image: url("assets/img/sidebar-5.jpg"); height:1000px;"></div>
     <!--
 
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
