@@ -28,7 +28,7 @@
 <body id="">
   <div  class="container-fluid">
     <div class="row">
-    <div class="col-md-1 collapse" style="background-color: #2980b9;">
+    <div class="col-md-1 col-xs-1" style="background-color: #2980b9;">
     <div style="height:800px; width:100%;"></div>
     <!--
 
@@ -42,7 +42,7 @@
 
   <div class="col-md-10 main" style="">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#2980b9;">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="">
       <div class="container-fluid">
         <div class="col-md-offset-5 col-md-2">
         <div class="navbar-header">
@@ -63,7 +63,7 @@
 @yield('content')
 
   </div>
-  <div class="col-md-1 collapse" style="background-color: #2980b9;">
+  <div class="col-md-1 col-xs-1" style="background-color: #2980b9;">
   <div style="height:800px; width:100%;"></div>
     <!--
 
