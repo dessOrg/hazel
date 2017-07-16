@@ -28,7 +28,7 @@
 <body id="">
   <div  class="container-fluid">
     <div class="row">
-    <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
+    <div class="col-md-1" style="background-color:#2980b9ff">
 
     <!--
 
@@ -42,7 +42,7 @@
 
   <div class="col-md-10 main">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:red;">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#2980b9ff;">
       <div class="container-fluid">
         <div class="col-md-offset-5 col-md-2">
         <div class="navbar-header">
@@ -63,7 +63,7 @@
 @yield('content')
 
   </div>
-    <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
+    <div class="col-md-1" style="background-color:#2980b9ff">
 
     <!--
 
