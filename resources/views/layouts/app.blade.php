@@ -41,7 +41,7 @@
 
   <div class="main-panel">
 
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="col-md-offset-5 col-md-2">
         <div class="navbar-header">
