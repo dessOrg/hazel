@@ -43,46 +43,17 @@
 
     -->
 
-    	<div class="sidebar-wrapper">
-            <div class="logo">
-                <a href="{{ url('/')}}" class="simple-text">
-                    CoinBox
-                </a>
-            </div>
 
-            <ul class="nav">
-                <li class="active">
-                    <a href="{{ url('/')}}">
-                        <i class="pe-7s-graph"></i>
-                        <p>Opportunities</p>
-                    </a>
-                </li>
-                <li >
-                  <a href="{{ url('/addOpport')}}">
-                      <i class="pe-7s-note2"></i>
-                      <p>Post Opportunity</p> </li>
-                </li>
-            </ul>
-    	</div>
     </div>
 
   <div class="main-panel">
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
-              <div class="col-md-offset-5 col-md-2" style="text-align:center;">
+              <div class="col-md-offset-5 col-md-2 col-xs-offset-5 col-xs-2" style="text-align:center;">
                 <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto; padding-bottom:20px;"></a>
               </div>
-                <div  class="col-md-5">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                </div>
-                <div class="collapse navbar-collapse">
+                <div  class="col-md-5 col-xs-12">
+                <div class="">
 
                     <ul class="nav navbar-nav navbar-right">
                         @if(Auth::guest())
