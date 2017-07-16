@@ -27,7 +27,7 @@
 </head>
 <body id="">
   <div  class="wrapper">
-    <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
+    <div class="col-md-1 sidebar" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
 
     <!--
 
