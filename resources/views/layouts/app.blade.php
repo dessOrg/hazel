@@ -26,7 +26,7 @@
 
 </head>
 <body id="">
-  <div  class="">
+  <div  class="container-fluid">
     <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
 
     <!--
