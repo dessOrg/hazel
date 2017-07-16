@@ -46,15 +46,11 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#">WebSiteName</a>
         </div>
-        <ul class="nav navbar-nav">
-          <li class="active col-xs-1"><a href="#">Home</a></li>
-          <li class="col-xs-1"><a href="#">Page 1</a></li>
-          <li class="col-xs-1"><a href="#">Page 2</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="col-xs-1"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li class="col-xs-1"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
+        <div class="nav navbar-nav">
+          <div class="active col-xs-1"><a href="#">Home</a></div>
+          <div class="col-xs-1"><a href="#">Page 1</a></div>
+          <div class="col-xs-1"><a href="#">Page 2</a></div>
+        </div>
       </div>
     </nav>
 
