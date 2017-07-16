@@ -28,8 +28,7 @@
 <body id="">
   <div  class="container-fluid">
     <div class="row">
-    <div class="col-md-1" style="background-color:blue;">
-<div style="background-color:red; height:500px; width:100%;"></div>
+    <div class="col-md-1" style="background-image: url("assets/img/sidebar-5.jpg"); background-color: #2980b9;">
     <!--
 
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
