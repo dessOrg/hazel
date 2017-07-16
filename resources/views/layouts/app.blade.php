@@ -42,7 +42,7 @@
 
   <div class="col-md-10 main">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:red;">
       <div class="container-fluid">
         <div class="col-md-offset-5 col-md-2">
         <div class="navbar-header">
