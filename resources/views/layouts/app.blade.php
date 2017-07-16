@@ -47,14 +47,14 @@
     </div>
 
   <div class="main-panel">
-    <div class="col-md-offset-5 col-md-2 col-xs-offset-5 col-xs-2" style="text-align:center;">
-      <a class="" href="{{ url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto; padding-bottom:20px;"></a>
-    </div>
-    <div  class="col-md-5 col-xs-12">
+
+
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
-
-
+              <div class="col-md-offset-5 col-md-2 col-xs-offset-5 col-xs-2" style="text-align:center;">
+                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto; padding-bottom:20px;"></a>
+              </div>
+             <div  class="col-md-5 col-xs-12">
                 <div class="">
 
                     <ul class="nav navbar-nav navbar-right">
@@ -86,9 +86,9 @@
                     </ul>
                 </div>
             </div>
-
+</div>
         </nav>
-        </div>
+
 
 @yield('content')
 
