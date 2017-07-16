@@ -26,8 +26,8 @@
 
 </head>
 <body id="">
-  <div  class="wrapper">
-    <div class="col-md-1 sidebar" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
+  <div  class="">
+    <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
 
     <!--
 
@@ -39,7 +39,7 @@
 
     </div>
 
-  <div class="col-md-10 main-panel">
+  <div class="col-md-10 main">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
