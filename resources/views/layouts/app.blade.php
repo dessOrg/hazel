@@ -57,7 +57,7 @@
              <div  class="col-md-5 col-xs-12">
                 <div class="">
 
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav ">
                         @if(Auth::guest())
                         <li>
                             <a href="{{ url('/login')}}">
