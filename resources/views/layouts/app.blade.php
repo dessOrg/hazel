@@ -27,6 +27,7 @@
 </head>
 <body id="">
   <div  class="container-fluid">
+    <div class="row">
     <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
 
     <!--
@@ -86,6 +87,7 @@
 
 
 
+</div>
 </div>
 </body>
 </html>
