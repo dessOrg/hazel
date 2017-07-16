@@ -40,7 +40,7 @@
 
     </div>
 
-  <div class="col-md-10 main" style="">
+  <div class="col-md-10 col-xs-10 main" style="">
 
     <nav class="navbar navbar-inverse navbar-fixed-top" style="">
       <div class="container-fluid">
