@@ -28,7 +28,7 @@
 <body id="">
   <div  class="container-fluid">
     <div class="row">
-    <div class="col-md-1" style="background-color: #2980b9;">
+    <div class="col-md-1 collapse" style="background-color: #2980b9;">
     <div style="height:800px; width:100%;"></div>
     <!--
 
@@ -63,7 +63,7 @@
 @yield('content')
 
   </div>
-  <div class="col-md-1" style="background-color: #2980b9;">
+  <div class="col-md-1 collapse" style="background-color: #2980b9;">
   <div style="height:800px; width:100%;"></div>
     <!--
 
