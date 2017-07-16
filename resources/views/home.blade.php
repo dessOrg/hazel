@@ -14,7 +14,7 @@
       <div class="col-md-11 col-xs-12"> <!-- Body section -->
 
         <div class="col-md-9 col-xs-12 title"> <!-- Title section -->
-          <h3><b>{{$key->title}}.</b></h3>
+          <h5><b>{{$key->title}}.</b></h5>
 
         </div>
         <div class="col-md-3 col-xs-12"> <!-- Time section -->

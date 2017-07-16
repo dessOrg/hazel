@@ -53,7 +53,18 @@
         <div class="nav navbar-nav navbar-right">
           <div class="col-md-4 col-xs-4"><a href="#">Home</a></div>
           <div class="col-md-4 col-xs-4"><a href="#">Page 1</a></div>
-          <div class="col-md-4 col-xs-4"><a href="#">Page 2</a></div>
+          <div class="col-md-4 col-xs-4">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+          </div>
+
         </div>
       </div>
       </div>
