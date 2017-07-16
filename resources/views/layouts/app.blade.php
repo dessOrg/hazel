@@ -27,7 +27,7 @@
 </head>
 <body id="">
   <div  class="wrapper">
-    <div class="sidebar" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
+    <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
 
     <!--
 
@@ -39,7 +39,7 @@
 
     </div>
 
-  <div class="main-panel">
+  <div class="col-md-10 main-panel">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
@@ -62,6 +62,17 @@
 @yield('content')
 
   </div>
+    <div class="col-md-1" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
+
+    <!--
+
+        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+        Tip 2: you can also add an image using data-image tag
+
+    -->
+
+
+    </div>
 
 
 
