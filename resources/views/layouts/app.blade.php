@@ -19,20 +19,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Animation library for notifications   -->
-    <link href="/assets/css/animate.min.css" rel="stylesheet"/>
 
     <!--  Light Bootstrap Table core CSS    -->
     <link href="/assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
 
-    <!--     Fonts and icons     -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="/assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
-
 
 </head>
-<body >
+<body id="">
   <div  class="wrapper">
     <div class="sidebar" data-color="blue" data-image="/assets/img/sidebar-5.jpg">
 
@@ -48,46 +41,22 @@
 
   <div class="main-panel">
 
-
-        <nav class="navbar navbar-default navbar-fixed">
-            <div class="container-fluid">
-              <div class="col-md-offset-5 col-md-2 col-xs-offset-5 col-xs-2" style="text-align:center;">
-                <a class="navbar-brand" href="{{ url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto; padding-bottom:20px;"></a>
-              </div>
-             <div  class="col-md-5 col-xs-12">
-                <div class="">
-
-                    <ul class="nav navbar-nav ">
-                        @if(Auth::guest())
-                        <li>
-                            <a href="{{ url('/login')}}">
-                                <i class="fa fa-btn fa-sign-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{url('/register')}}">
-                                <i class="fa fa-btn fa-user-plus"></i>
-                            </a>
-                        </li>
-
-                        @else
-                            <li>
-                               <a href="{{url('/getUser')}}">
-                                   <i class="fa fa-user"></i>
-                                </a>
-                            </li>
-                        <li>
-                            <a href="{{url('/logout')}}">
-                                <i class="fa fa-btn fa-sign-out"></i>
-                            </a>
-                        </li>
-                        @endif
-						<li class="separator hidden-lg hidden-md"></li>
-                    </ul>
-                </div>
-            </div>
-</div>
-        </nav>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </nav>
 
 
 @yield('content')
@@ -103,25 +72,6 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
-  <!--   Core JS Files   -->
-<script src="/assets/js/jquery-1.10.2.js" type="text/javascript"></script>
-<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
-
-<!--  Checkbox, Radio & Switch Plugins -->
-<script src="/assets/js/bootstrap-checkbox-radio-switch.js"></script>
-
-<!--  Charts Plugin -->
-<script src="/assets/js/chartist.min.js"></script>
-
-<!--  Notifications Plugin    -->
-<script src="/assets/js/bootstrap-notify.js"></script>
-
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-<!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
-<script src="/assets/js/light-bootstrap-dashboard.js"></script>
 
 
 
