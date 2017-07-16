@@ -47,9 +47,9 @@
           <a class="navbar-brand" href="#">WebSiteName</a>
         </div>
         <div class="nav navbar-nav">
-          <div class="col-md-2 col-xs-2"><a href="#">Home</a></div>
-          <div class="col-md-2 col-xs-2"><a href="#">Page 1</a></div>
-          <div class="col-md-2 col-xs-2"><a href="#">Page 2</a></div>
+          <div class="col-md-3 col-xs-2"><a href="#">Home</a></div>
+          <div class="col-md-3 col-xs-2"><a href="#">Page 1</a></div>
+          <div class="col-md-3 col-xs-2"><a href="#">Page 2</a></div>
         </div>
       </div>
     </nav>
