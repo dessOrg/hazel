@@ -29,7 +29,7 @@
   <div  class="container-fluid">
     <div class="row">
     <div class="col-md-1" style="background-color: #2980b9;">
-    <div style="height:1000px; width:100%;"></div>
+    <div style="height:800px; width:100%;"></div>
     <!--
 
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
@@ -63,8 +63,8 @@
 @yield('content')
 
   </div>
-    <div class="col-md-1" style="background-color:#2980b9">
-
+  <div class="col-md-1" style="background-color: #2980b9;">
+  <div style="height:800px; width:100%;"></div>
     <!--
 
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
