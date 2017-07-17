@@ -39,7 +39,7 @@
       <div class="container-fluid">
         <div class="col-md-offset-5 col-md-2">
         <div class="navbar-header">
-          <a class="navbar-brand" href="{{url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto;" ></a>
+          <a class="navbar-brand" href="{{url('/')}}"><img src="/images/logo.png" style="height:40px; width:auto;padding-bottom:20px" ></a>
         </div>
       </div>
         <div class="col-md-5">
@@ -77,7 +77,7 @@
       </div>
       </div>
     </nav>
-<div style="margin-bottom:60px;"></div>
+<div style="margin-bottom:60px;margin-top:30px;"></div>
 
 @yield('content')
 
