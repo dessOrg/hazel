@@ -57,7 +57,7 @@
               </ul>
             </li>
           </div>
-          @if(Auth::user())
+          @elseif(Auth::user())
 
           <div class="col-md-4 col-xs-4"><a href="{{url('/')}}">Opportunities</a></div>
           <div class="col-md-4 col-xs-4">
