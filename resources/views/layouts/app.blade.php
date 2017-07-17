@@ -39,24 +39,39 @@
       <div class="container-fluid">
         <div class="col-md-offset-5 col-md-2">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
+          <a class="navbar-brand" href="{{url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto;" ></a>
         </div>
       </div>
         <div class="col-md-5">
         <div class="nav navbar-nav navbar-right">
-          <div class="col-md-4 col-xs-4"><a href="#">Home</a></div>
-          <div class="col-md-4 col-xs-4"><a href="#">Page 1</a></div>
+          @if(Auth::guest())
+
+          <div class="col-md-4 col-xs-4"><a href="{{url('/login')}}"><i class="fa fa-btn fa-sign-in"></i></a></div>
           <div class="col-md-4 col-xs-4">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Register
               <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
+                <li><a href="{{url('/register')}}">User</a></li>
+                <li><a href="{{url('/signup')}}">Cooperate</a></li>
               </ul>
             </li>
           </div>
+          @if(Auth::user())
+
+          <div class="col-md-4 col-xs-4"><a href="{{url('/')}}">Opportunities</a></div>
+          <div class="col-md-4 col-xs-4">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Account
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="{{url('/getUser')}}">Account</a></li>
+                <li><a href="{{url('/logout')}}">Logout</a></li>
+              </ul>
+            </li>
+          </div>
+
+          @endif
 
         </div>
       </div>
