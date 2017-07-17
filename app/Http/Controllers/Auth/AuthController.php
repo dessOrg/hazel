@@ -68,7 +68,7 @@ class AuthController extends Controller
         return User::create([
             'name' => $data['name'],
             'kra_pin' => $data['kra_pin'],
-            'role' => Input::get('role'),
+            'role' => $data['role'],
             'image' => "default-avatar.png",
             'email' => $data['email'],
             'phoneno' => $data['phoneno'],
