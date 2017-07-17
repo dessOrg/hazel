@@ -27,6 +27,11 @@ $this->get('/', function () {
     return view('home')->with('opportunities', $name);
 });
 
+$this->get('/signup', function () {
+
+  return view('auth/signup');
+});
+
 $this->auth();
 
 $this->get('/addOpport', 'IndexController@getOpport');

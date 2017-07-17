@@ -4,26 +4,25 @@
 <div class="content">
     <div class="container-fluid">
     <div class="row">
-<div class="col-md-12" style="padding-top:30px;">
+<div class="col-md-12">
 
-            <div class="col-md-12">
+
+        <div class="col-md-12" style="padding-top:40px;">
             <div class="panel panel-default" >
-                <div class="panel-heading">User Registration</div>
+                <div class="panel-heading">Co-operate Registration</div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
                         {{ csrf_field() }}
 
                             <div class="col-md-12">
-                              <div><h3>Personal Details</h3></div><hr>
-
-                      <div class="col-md-12">
+                              <div><h3>Co-operate Details</h3></div><hr>
+                              <div class="col-md-6">
                       <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                          <label for="name" class="col-md-12 control-label">Full Name</label>
+                          <label for="name" class="col-md-12 control-label">Co-operate Name</label>
 
                           <div class="col-md-12">
                               <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}">
                               <input id="role" type="hidden" class="form-control" name="role" value="coop">
-                              <input id="kra_pin" type="hidden" class="form-control" name="kra_pin" value="NA">
 
                               @if ($errors->has('name'))
                                   <span class="help-block">
@@ -34,7 +33,23 @@
                       </div>
                     </div>
 
-            <div class="col-md-6">
+                    <div class="col-md-6">
+                        <div class="form-group{{ $errors->has('kra-pin') ? ' has-error' : '' }}">
+                          <label for="kra-pin" class="col-md-12 control-label">Kra Pin</label>
+
+                            <div class="col-md-12">
+                                <input id="kra-pin" type="text" class="form-control" name="kra-pin" value="{{ old('kra-pin') }}">
+
+                                  @if ($errors->has('kra-pin'))
+                                <span class="help-block">
+                              <strong>{{ $errors->first('kra-pin') }}</strong>
+                          </span>
+                            @endif
+                      </div>
+                    </div>
+                  </div>
+
+           <div class="col-md-6">
               <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                   <label for="email" class="col-md-12 control-label">E-Mail Address</label>
 
@@ -48,10 +63,9 @@
                       @endif
                   </div>
               </div>
-          </div>
+            </div>
 
-                <div class="col-md-6">
-
+                   <div class="col-md-6">
                         <div class="form-group{{ $errors->has('phoneno') ? ' has-error' : '' }}">
                             <label for="phoneno" class="col-md-12 control-label">Mobile No</label>
 
@@ -65,8 +79,8 @@
                                 @endif
                             </div>
                         </div>
-                    </div>
 
+                                  </div>
                                 </div>
                                 <div class="col-md-12">
                                   <div class="col-md-6">
