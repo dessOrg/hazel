@@ -43,7 +43,7 @@
         </div>
       </div>
         <div class="col-md-5">
-        <div class="nav navbar-nav navbar-right">
+        <div class="nav navbar-nav navbar-right" style="padding-top:20px;">
           @if(Auth::guest())
 
           <div class="col-md-4 col-xs-4"><a href="{{url('/login')}}"><i class="fa fa-btn fa-sign-in"></i></a></div>
