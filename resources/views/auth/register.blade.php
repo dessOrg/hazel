@@ -23,7 +23,7 @@
                           <div class="col-md-12">
                               <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}">
                               <input id="role" type="hidden" class="form-control" name="role" value="coop">
-                              <input id="kra_pin" type="hidden" class="form-control" name="kra_pin" value="NA">
+                              <input id="kra_pin" type="hidden" class="form-control" name="kra_pin" value="ABCDE12345">
 
                               @if ($errors->has('name'))
                                   <span class="help-block">
