@@ -37,7 +37,7 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top" style="">
       <div class="container-fluid">
-        <div class="col-md-offset-5 col-md-2">
+        <div class="col-md-offset-5 col-md-2 col-xs-offset-5 col-xs-2">
         <div class="navbar-header">
           <a class="navbar-brand" href="{{url('/')}}"><img src="/images/logo.png" style="height:50px; width:auto;padding-bottom:20px" ></a>
         </div>
@@ -59,7 +59,7 @@
           </div>
           @elseif(Auth::user())
 
-          <div class="col-md-4 col-xs-4"><a href="{{url('/')}}">Opportunities</a></div>
+          <div class="col-md-4 col-xs-4"><a href="{{url('/')}}">Home</a></div>
           <div class="col-md-4 col-xs-4">
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Account
